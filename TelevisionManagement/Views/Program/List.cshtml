@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "List of Programs";
+}
+
+<h2>Program List</h2>
+<a href="/program/create" class="btn btn-primary">Create Program</a>
+<a href="/channel/list" class="btn btn-primary">View Channels</a>
+<table class="table table-bordered">
+    <tr>
+        <th>Program Id</th>
+        <th>Program Name</th>
+        <th>TRPScore</th>
+        <th>Channel Id</th>
+        <th>Air Time</th>
+        <th></th>
+    </tr>
+    @foreach (var p in Model)
+    {
+        <tr>
+            <td>@p.ProgramId</td>
+            <td>@p.ProgramName</td>
+            <td>@p.TRPScore</td>
+            <td>@p.ChannelId</td>
+            <td>@p.AirTime</td>
+            <td>
+                <a href="/program/details/@p.ProgramId" class="btn btn-info">Details</a>
+                <a href="/program/edit/@p.ProgramId" class="btn btn-warning">Edit</a>
+                <a href="/program/delete/@p.ProgramId" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+    }
+</table>

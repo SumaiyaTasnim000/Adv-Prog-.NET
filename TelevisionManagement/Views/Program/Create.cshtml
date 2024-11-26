@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Create Program";
+}
+<h2>Create Program</h2>
+<form method="post">
+    <input type="text" name="ProgramName" value="@Model.ProgramName" class="form-control" placeholder="ProgramName" />
+    <span class="text-danger">@Html.ValidationMessage("ProgramName")</span>
+    <input type="text" name="TRPScore" value="@Model.TRPScore" class="form-control" placeholder="TRPScore" />
+    <span class="text-danger">@Html.ValidationMessage("TRPScore")</span>
+    <input type="text" name="ChannelId" value="@Model.ChannelId" class="form-control" placeholder="ChannelId" />
+    <span class="text-danger">@Html.ValidationMessage("ChannelId")</span>
+    <input type="text" name="AirTime" value="@Model.AirTime" class="form-control" placeholder="AirTime" />
+    <span class="text-danger">@Html.ValidationMessage("AirTime")</span>
+    <input type="submit" value="Create" class="btn btn-success" />
+</form>
+

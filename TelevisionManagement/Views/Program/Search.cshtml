@@ -1,0 +1,39 @@
+﻿@using System.Linq
+@model IEnumerable<TelevisionManagement.EF.Program>
+@{
+    ViewBag.Title = "Matched Program:";
+}
+
+<h2>Search Results:</h2>
+
+
+
+<!-- Displaying filtered programs in a table -->
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Program Name</th>
+                <th>Channel</th>
+                <th>TRP Score</th>
+                <th>Air Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var program in Model)
+            {
+                <tr>
+                    <td>@program.ProgramName</td>
+                    <td>@(program.Channel != null ? program.Channel.ChannelName : "No Channel")</td>
+                    <td>@program.TRPScore</td>
+                    <td>@program.AirTime</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+<p>No results found.</p>
+}
