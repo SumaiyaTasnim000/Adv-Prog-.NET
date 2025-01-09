@@ -1,0 +1,14 @@
+E:\10th Sem\.NET\NewsManagement\BLL\bin\Debug\BLL.dll
+E:\10th Sem\.NET\NewsManagement\BLL\bin\Debug\BLL.pdb
+E:\10th Sem\.NET\NewsManagement\BLL\bin\Debug\DAL.dll
+E:\10th Sem\.NET\NewsManagement\BLL\bin\Debug\DAL.pdb
+E:\10th Sem\.NET\NewsManagement\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\10th Sem\.NET\NewsManagement\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\10th Sem\.NET\NewsManagement\BLL\obj\Debug\BLL.csproj.Up2Date
+E:\10th Sem\.NET\NewsManagement\BLL\obj\Debug\BLL.dll
+E:\10th Sem\.NET\NewsManagement\BLL\obj\Debug\BLL.pdb
+E:\10th Sem\.NET\NewsManagement\BLL\bin\Debug\AutoMapper.dll
+E:\10th Sem\.NET\NewsManagement\BLL\bin\Debug\EntityFramework.dll
+E:\10th Sem\.NET\NewsManagement\BLL\bin\Debug\DAL.dll.config
+E:\10th Sem\.NET\NewsManagement\BLL\bin\Debug\AutoMapper.xml
+E:\10th Sem\.NET\NewsManagement\BLL\bin\Debug\EntityFramework.xml

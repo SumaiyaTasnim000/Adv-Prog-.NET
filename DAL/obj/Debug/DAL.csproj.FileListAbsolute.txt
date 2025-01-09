@@ -1,0 +1,14 @@
+E:\10th Sem\.NET\NewsManagement\DAL\bin\Debug\DAL.dll
+E:\10th Sem\.NET\NewsManagement\DAL\bin\Debug\DAL.pdb
+E:\10th Sem\.NET\NewsManagement\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\10th Sem\.NET\NewsManagement\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\10th Sem\.NET\NewsManagement\DAL\obj\Debug\DAL.dll
+E:\10th Sem\.NET\NewsManagement\DAL\obj\Debug\DAL.pdb
+E:\10th Sem\.NET\NewsManagement\DAL\bin\Debug\DAL.dll.config
+E:\10th Sem\.NET\NewsManagement\DAL\bin\Debug\EntityFramework.dll
+E:\10th Sem\.NET\NewsManagement\DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\10th Sem\.NET\NewsManagement\DAL\bin\Debug\EntityFramework.xml
+E:\10th Sem\.NET\NewsManagement\DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\10th Sem\.NET\NewsManagement\DAL\obj\Debug\DAL.csproj.Up2Date
+E:\10th Sem\.NET\NewsManagement\DAL\obj\Debug\DAL.Migrations.NewsManagement.resources
+E:\10th Sem\.NET\NewsManagement\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
